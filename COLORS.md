@@ -11,7 +11,7 @@
 | Cluster 9 | R:199 G:233 B:180 | #C7E9B4 |
 | Cluster 10 | R:123 G:204 B:196 | #7BCCC4 |
 | Cluster 11 | R:103 G:169 B:207 | #67A9CF |
-| Cluster 12 | R:253 G:224 B:221 | #FDEODD |
+| Cluster 12 | R:253 G:224 B:221 | #FDE0DD |
 | Cluster 13 | R:252 G:141 B:89 | #FC8D59 |
 | L3 | R:217 G:217 B:217 | #D9D9D9 |
 | Lat | R:150 G:150 B:150 | #969696 |
