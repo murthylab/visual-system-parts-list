@@ -1,21 +1,18 @@
-| Group | RGB values | RGB code |
-|---|---|---|
-| Cluster 1 | R:65 G:171 B:93 | #41AB5D |
-| Cluster 2 | R:140 G:150 B:198 | #8C96C6 |
-| Cluster 3 | R:253 G:212 B:158 | #FDD49E |
-| Cluster 4 | R:251 G:106 B:74 | #FB6A4A |
-| Cluster 5 | R:223 G:101 B:176 | #DF65B0 |
-| Cluster 6 | R:158 G:154 B:200 | #9E9AC8 |
-| Cluster 7 | R:247 G:252 B:185 | #F7FCB9 |
-| Cluster 8 | R:204 G:236 B:230 | #CCECE6 |
-| Cluster 9 | R:199 G:233 B:180 | #C7E9B4 |
-| Cluster 10 | R:123 G:204 B:196 | #7BCCC4 |
-| Cluster 11 | R:103 G:169 B:207 | #67A9CF |
-| Cluster 12 | R:253 G:224 B:221 | #FDE0DD |
-| Cluster 13 | R:252 G:141 B:89 | #FC8D59 |
-| L3 | R:217 G:217 B:217 | #D9D9D9 |
-| Lat | R:150 G:150 B:150 | #969696 |
-| Lawf2 | R:255 G:255 B:255 | #FFFFFF |
-| VCN | R:206 G:18 B:86 | #CE1256 |
-| VPN | R: 2 G:129 B:138 | #02818A |
-| Het-lat | R:35 G:139 B:69 | #238B45 |
+| Cluster | Subsystem | Group | Color |
+|---|---|---|---|
+|Cluster1|Color|Color|orangered, #ff4500|
+|Cluster2|Form|Form|hotpink, #ff69b4|
+|Cluster3|Polarization|Polarization|gold, #996515|
+|Cluster4|Color|Color|orangered, #ff4500|
+|Cluster5|Luminance|ON/OFF/Luminance|aqua, #00ffff|
+|Cluster6|R7-8|Photoreceptor|yellow, #ffff00|
+|Cluster7|Object|Object|dodgerblue, #1e90ff|
+|Cluster8|Object|Object|dodgerblue, #1e90ff|
+|Cluster9|OFF|ON/OFF/Luminance|aqua, #00ffff|
+|Cluster10|ON|ON/OFF/Luminance|aqua, #00ffff|
+|Cluster11|Motion|Motion|springgreen, #00ff7f|
+|Cluster12|Motion|Motion|springgreen, #00ff7f|
+|Cluster13|R1-6|Photoreceptor|yellow, #ffff00|
+|L3|Luminance|ON/OFF/Luminance|aqua, #00ffff|
+|Lat|Lat|Lat/Lawf2|grey, #b8b8b8|
+|Lawf2|Lawf2|Lat/Lawf2|grey, #b8b8b8|
