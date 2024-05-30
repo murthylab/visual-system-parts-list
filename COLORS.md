@@ -1,5 +1,5 @@
 | Cluster | Subsystem | Color | RGB |
-|---|---|---|---|---|
+|---|---|---|---|
 |Cluster1|Color|yellow|#ffff00|
 |Cluster2|Form|green|#008000|
 |Cluster3|Polarization|orange|#ffa500|
