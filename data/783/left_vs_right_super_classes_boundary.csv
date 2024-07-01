@@ -1,6 +1,7 @@
 Super Class,Right OL,Left OL,Diff from Right OL
-visual_projection,3857,3737,-3%
-visual_centrifugal,250,235,-6%
-optic,137,137,0%
-central,24,20,-20%
-descending,9,7,-29%
+visual_projection,3880,3832,-1%
+visual_centrifugal,260,265,+2%
+optic,149,151,+1%
+central,72,67,-7%
+descending,11,8,-38%
+ascending,8,6,-33%
