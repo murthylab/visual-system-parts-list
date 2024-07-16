@@ -6,7 +6,7 @@
 |Cluster4|Color|gold|#ffd700|
 |Cluster5|Polarization|aqua|#00ffff|
 |Cluster6|Luminance|fuchsia|#ff00ff|
-|Cluster7|Luminance|maroon3|#ff3090|
+|Cluster7|Luminance|hotpink|#ff69b4|
 |Cluster8|OFF|royalblue|#4169E1|
 |Cluster9|Object|chartreuse|#7fff00|
 |Cluster10|OFF|dodgerblue|#1e90ff|
@@ -17,5 +17,6 @@
 |Cluster15|Motion|darkkhaki|#BDB76B|
 |Cluster16|Motion|darkgoldenrod|#b8860b|
 |L3|Luminance|mediumorchid|#ba55d3|
-|Lat|Color|apricot|#fed0bb|
+|Lat|Color|lightgoldenrodyellow|#fafad2|
 |Lawf2|ON|darkorange|#FF8C00|
+|Photoreceptors|Photoreceptors|indianred|#cd5c5c|
