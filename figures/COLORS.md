@@ -6,7 +6,7 @@
 |Cluster4|Color|gold|#ffd700|
 |Cluster5|Polarization|aqua|#00ffff|
 |Cluster6|Luminance|fuchsia|#ff00ff|
-|Cluster7|Luminance|hotpink|#ff69b4|
+|Cluster7|Luminance|violet|#ee82ee|
 |Cluster8|OFF|royalblue|#4169E1|
 |Cluster9|Object|chartreuse|#7fff00|
 |Cluster10|OFF|dodgerblue|#1e90ff|
