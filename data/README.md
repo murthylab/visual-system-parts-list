@@ -1,24 +1,39 @@
 # Data Resources for FlyWire Visual Neuron Types
 
+| File Name                                      | Description                                                                    |
+|------------------------------------------------|--------------------------------------------------------------------------------|
+| `neuron_table.csv`                            | Metadata for all neurons in the FlyWire dataset v783                           |
+| `ol_intrinsic_types.py`                        | OL intrinsic types grouped by type families                                    |
+| `synapse_table.csv.gz`                         | Full synapse table (without thresholds) with compacted cell IDs                |
+| `synapse_table_compact_ids_map.csv.gz`         | Map from compacted cell IDs to full cell IDs (for the synapse table)           |
+| `type_to_type_connection_and_synapse_counts.csv` | Type-to-type connection and synapse counts for OL intrinsic and boundary types |
+| `left_vs_right_super_classes_boundary.csv`     | Comparing super class counts for OL boundary neurons L vs R                    |
+| `left_vs_right_super_classes_intrinsic.csv`    | Comparing super class counts for OL intrinsic neurons L vs R                   |
+| `left_vs_right_types_boundary.csv`             | Comparing cell type counts for OL boundary neurons L vs R                      |
+| `left_vs_right_types_intrinsic.csv`            | Comparing cell type counts for OL intrinsic neurons L vs R                     |
+
+
 ## FlyWire Data Version
 Cell IDs and synapse / connection counts refer to the FlyWire connectome version 783 (released in October 2023).
 
-## Connections included in the dataset
-To account for potentially noisy synapse predictions, we have included connections with 5 or more synapses for the general case.
-This is consistent with the threshold used in other publications utilizing the FlyWire connectome. For connections in the 
-optic lobes we applied a threshold of 2+ synapses. This is unique to our work, and is based on empirical evidence - the separation 
-of types viewed as clusters of feature vectors counting connections with other types is maximized with threshold 2.
+## Connection thresholds applied to the dataset
+To account for potentially noisy synapse predictions, in our anelyses we have excluded 
+connections with less than 5 synapses in the central brain
+(this is consistent with the threshold used in other publications utilizing the FlyWire connectome) and we have
+excluded connections with less than 2 synapses in the optic lobes (this is unique to our study, and is based on 
+empirical evidence - the separation of types viewed as clusters of feature vectors counting connections with other 
+types is maximized with threshold of 2+ synapses).
 
-## Neurons included in the dataset
+## Neuron categories
 ### Optic Lobe Intrinsic
-Neurons with 95 percent or more synapses in one optic lobe. There are few exceptions:
+Neurons with at least 95% of synapses in one optic lobe. There are few exceptions:
 1. Neurons with no synapses are excluded even if (by morphology) we believe they belong to one of the optic lobe 
-intrinsic cell types. Less than 2% of the cells.
+intrinsic cell types. Less than 2% of the cells in the dataset fall in this bucket.
 2. Neurons with reconstruction errors are excluded. Less than 0.1% of the intrinsic cells.
 
 ### Optic Lobe Boundary
-Neurons with >0 but <5 percent of synapses in any optic lobe, and bilateral neurons with synapses in both optic lobes.
-Neurons with reconstruction errors are excluded. Less than 1% of the boundary cells.
+Neurons with at least 5% of synapses in any optic lobe, plus bilateral neurons with synapses in both optic lobes.
+Neurons with reconstruction errors are excluded (less than 1% of the boundary cells).
 
 ### Cell types outside the optic lobes
 For neurons not in the optic lobes, we use types from the primary FlyWire annotations resource
