@@ -158,15 +158,23 @@ OPTIC_LOBE_INTRINSIC_TYPES = {
         "Sm42",
         "Sm43",
     ],
-    "T Neuron": [
+    "T1 Neuron": [
         "T1",
+    ],
+    "T2 Neuron": [
         "T2",
         "T2a",
+    ],
+    "T3 Neuron": [
         "T3",
+    ],
+    "T4 Neuron": [
         "T4a",
         "T4b",
         "T4c",
         "T4d",
+    ],
+    "T5 Neuron": [
         "T5a",
         "T5b",
         "T5c",
