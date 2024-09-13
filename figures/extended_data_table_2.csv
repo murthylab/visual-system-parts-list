@@ -1,0 +1,29 @@
+Family,Affinity,Linkage,Types,Cells,Trans,Neuropils
+Centrifugal,Cross Neuropil,Axon Bearing / Columnar,2,1511,GABA,"ME $\rightarrow$ ME, LA"
+Distal Medulla,Neuropil Intrinsic,Non-columnar,21,3284,GLUT,ME $\rightarrow$ ME
+Distal Medulla Dorsal Rim Area,Neuropil Intrinsic,Non-columnar,2,35,GLUT,ME $\rightarrow$ ME
+Lamina Intrinsic,Neuropil Intrinsic,Non-columnar,1,231,,LA $\rightarrow$ LA
+Lamina Monopolar,Cross Neuropil,Axon Bearing / Columnar,5,3831,ACH,"ME, LA $\rightarrow$ ME"
+Lamina Tangential,Neuropil Intrinsic,Axon Bearing / Tangential,1,6,,"ME, LO, AME, PLP $\rightarrow$ LO"
+Lamina Wide Field,Cross Neuropil,Axon Bearing / Columnar,2,320,ACH,ME $\rightarrow$ LA
+Lobula Intrinsic,Neuropil Intrinsic,Non-columnar,33,761,GABA,LO $\rightarrow$ LO
+Lobula Lobula Plate Tangential,Cross Neuropil,Axon Bearing / Tangential,1,36,GABA,"LO, LOP $\rightarrow$ LO, LOP"
+Lobula Medulla Amacrine,Cross Neuropil,Amacrine,6,134,GABA,"ME, LO $\rightarrow$ ME, LO"
+Lobula Medulla Tangential,Cross Neuropil,Axon Bearing / Tangential,4,88,GLUT,"LO, ME $\rightarrow$ LO, ME"
+Lobula Plate Intrinsic,Neuropil Intrinsic,Non-columnar,15,363,GLUT,LOP $\rightarrow$ LOP
+Medulla Intrinsic,Neuropil Intrinsic,Axon Bearing / Columnar,8,3922,ACH,ME $\rightarrow$ ME
+Medulla Lobula Lobula Plate Amacrine,Cross Neuropil,Amacrine,1,1,GABA,"LOP, ME, LO $\rightarrow$ LOP, LO, ME"
+Medulla Lobula Tangential,Cross Neuropil,Axon Bearing / Tangential,8,295,ACH,"ME, LO $\rightarrow$ ME, LO"
+Photo Receptors,Neuropil Intrinsic,Axon Bearing / Columnar,3,4751,,"ME, LA $\rightarrow$ LA, ME"
+Proximal Distal Medulla Tangential,Neuropil Intrinsic,Axon Bearing / Tangential,1,6,DA,ME $\rightarrow$ ME
+Proximal Medulla,Neuropil Intrinsic,Non-columnar,14,599,GABA,ME $\rightarrow$ ME
+Serpentine Medulla,Neuropil Intrinsic,Non-columnar,43,1488,GABA,ME $\rightarrow$ ME
+T1 Neuron,Cross Neuropil,Axon Bearing / Columnar,1,738,,"ME, LA $\rightarrow$ ME, LA"
+T2 Neuron,Cross Neuropil,Axon Bearing / Columnar,2,1591,ACH,"ME, LO $\rightarrow$ LO, ME"
+T3 Neuron,Cross Neuropil,Axon Bearing / Columnar,1,823,ACH,"ME, LO $\rightarrow$ LO, ME"
+T4 Neuron,Cross Neuropil,Axon Bearing / Columnar,4,3104,ACH,"ME, LOP $\rightarrow$ LOP, ME"
+T5 Neuron,Cross Neuropil,Axon Bearing / Columnar,4,2996,ACH,"LO, LOP $\rightarrow$ LOP, LO"
+Translobula Plate,Cross Neuropil,Axon Bearing / Columnar,4,172,GLUT,"LOP $\rightarrow$ LOP, LO"
+Transmedullary,Cross Neuropil,Axon Bearing / Columnar,26,8855,ACH,"ME, LO $\rightarrow$ ME, LO"
+Transmedullary Y,Cross Neuropil,Axon Bearing / Columnar,12,2598,ACH,"ME, LOP, LO $\rightarrow$ LO, ME, LOP"
+Y Neuron,Cross Neuropil,Axon Bearing / Columnar,5,631,GLUT,"LOP, ME, LO $\rightarrow$ LO, LOP, ME"
